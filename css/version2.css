@@ -7,11 +7,13 @@ body {
 }
 img {
     max-width: 100%; /* DO NOT delete or change this line */
+    margin: 0;
 }
 
 /* you will add css rules for element selectors and IDs */
 #cougar {
   background: #B26219;
+  color: #fff;
 }
 
 #lion {
@@ -20,30 +22,27 @@ img {
 
 #tiger {
   background: #FFBD82;
+
 }
 
 article {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
   color: #000;
 }
 
 .photo {
-  margin-top: 3rem;
+  margin-top: 2rem;
+  padding-bottom: 4rem;
+  padding-left: 2rem;
 }
 
 .text {
-  background: #fff;
-  padding: 2rem;
-  margin-bottom: 3rem;
+  margin: 2rem;
   font-size: 1rem;
   line-height: 1.5rem;
   box-sizing: border-box;
-}
-
-#cougar .photo {
-  color: #fff;
+  padding-left: 2rem;
 }
 
 section{
@@ -55,15 +54,16 @@ h1 {
 }
 
 h2 {
-  text-align: center;
+  margin: 0;
 }
+
 
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-right: 1rem;
     margin-left: 1rem;
+    margin-right: 1rem;
+    align-items: center;
 }
 
 nav ul {
@@ -87,6 +87,10 @@ footer {
   text-align: center;
   color: #fff;
 }
+
+
+
+
 
 /* ----- SUGGESTED COLORS -----
     - ARTICLES
